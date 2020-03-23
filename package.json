@@ -1,0 +1,20 @@
+{
+  "name": "vue-helper",
+  "description": "For Vue project that make it a MVC mode.",
+  "version": "0.0.1",
+  "license": "MIT",
+  "keywords": [
+	"Vue-helper",
+	"VueHelper",
+	"Vue MVC"
+  ],
+  "devDependencies": {
+	"rollup": "*",
+	"rollup-watch": "*",
+	"mime-types": "*"
+  },
+  "scripts": {
+	"dev": "rollup -c -w",
+	"demo": "node example/index.js"
+  }
+}
